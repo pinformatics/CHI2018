@@ -27,8 +27,38 @@ t.test(Masked$scr30_percent, Moderate$scr30_percent)
 
 
 #########################################################
+#                   Time
+#########################################################
+t.test(Baseline$duration_main, Full$duration_main)
+t.test(Baseline$duration_main, Low$duration_main)
+t.test(Baseline$duration_main, Masked$duration_main)
+t.test(Baseline$duration_main, Moderate$duration_main)
+t.test(Full$duration_main, Low$duration_main)
+t.test(Full$duration_main, Masked$duration_main)
+t.test(Full$duration_main, Moderate$duration_main)
+t.test(Low$duration_main, Masked$duration_main)
+t.test(Low$duration_main, Moderate$duration_main)
+t.test(Masked$duration_main, Moderate$duration_main)
+
+
+
+#########################################################
 #                   Confidence 
 #########################################################
+t.test(Baseline$mean_confidence, Full$mean_confidence)
+t.test(Baseline$mean_confidence, Low$mean_confidence)
+t.test(Baseline$mean_confidence, Masked$mean_confidence)
+t.test(Baseline$mean_confidence, Moderate$mean_confidence)
+t.test(Full$mean_confidence, Low$mean_confidence)
+t.test(Full$mean_confidence, Masked$mean_confidence)
+t.test(Full$mean_confidence, Moderate$mean_confidence)
+t.test(Low$mean_confidence, Masked$mean_confidence)
+t.test(Low$mean_confidence, Moderate$mean_confidence)
+t.test(Masked$mean_confidence, Moderate$mean_confidence)
+
+
+
+
 
 t.test(session_important$mean_confidence_right, session_important$mean_confidence_wrong)
 
